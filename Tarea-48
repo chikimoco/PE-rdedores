@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main(int argc, char *argv[]) {
+	int anti = 0;
+	float salario = 0.0, incentivo = 0.0;
+	
+	printf("Dar antiguedad del trabajador a evaluar \n ");
+	scanf("%d", &anti);
+	if (0 < anti && anti <= 15){
+		printf("Dar el valor del salario actual del empleado \n");
+		scanf("%f",&salario);
+
+			if (anti>0 && anti<4){ incentivo = salario*1.01;
+							
+			}
+			else {if (anti>3 && anti<7){ incentivo = salario*1.03;
+			
+							
+				} else {if(anti>6 && anti<10){incentivo = salario*1.05;
+				}
+						else {
+						incentivo = salario*1.07;
+						}
+			}
+	}printf("Sabiendo que el sueldo actual del empleado es: %f y su antiguedad actual es %d su incentivo sera de %f",salario,anti,incentivo);
+	 }
+	else printf("Valor de antiguedad fuera de rango");
+	return 0;
+}
