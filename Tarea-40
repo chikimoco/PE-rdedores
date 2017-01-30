@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(int argc, char *argv[]) {
+	int trabajadores = 0, cont = 0;
+	float sueldo = 0.0, Nsueldo = 0.0;
+	
+	printf("Cuantos trabajadores hay ");
+	scanf("%d", &trabajadores);
+		for (cont = 1; cont <= trabajadores; cont++)
+		{
+			printf("Dar el valor del sueldo del trabajador \n ");
+			scanf("%f",&sueldo);
+				if (sueldo<800.00){
+					Nsueldo = sueldo*1.15;
+					printf("su nuevo sueldo sera de %f\n ",Nsueldo);
+				} 
+				else {printf("no sufrira cambio en su sueldo \n");}
+		}
+	return 0;
+}
