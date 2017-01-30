@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(int argc, char *argv[]) {
+
+	int cont=0;
+	float n, sumaN=0.0, promedio=0.0;
+  
+	printf("Dar un valor positivo a MEDIAR, 0 para finalizar captura: ");
+	while (n!=0){
+	scanf("%f",&n);
+	if (n>0){
+		cont=cont+1;
+		sumaN = sumaN+n;
+		promedio = sumaN/cont;
+	} else { if (n<0){
+		printf("Valor no valido por ser negativo");}}
+	}
+	
+	printf("El promedio de los valores dados es: %f ", promedio);
+	
+	
+	return 0;
+}
