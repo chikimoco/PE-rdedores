@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main(int argc, char *argv[]) {
+	int ano1=0, ano2=0, bisiestos=0, anomenor =0, anomayor =0;
+
+	printf("Dar un valor para el primer ano a evaluar : ");
+	scanf("%d",&ano1);
+	printf("Dar un valor para el primer ano a evaluar : ");
+	scanf("%d",&ano2);
+	if (ano1<ano2){
+		anomenor = ano1;
+		anomayor = ano2;
+	} 
+	else {
+		anomenor = ano2;
+		anomayor = ano1;
+	}
+
+	for (anomenor=anomenor; anomenor <= anomayor; anomenor++)
+	{
+		if((anomenor%4==0 && anomenor%100!=0)||(anomenor%400==0)){
+		bisiestos = bisiestos + 1;
+	} }
+	printf("El numero de anos bisiestos entre los anos dados es: %d\n", bisiestos);
+
+	return 0;
+}
