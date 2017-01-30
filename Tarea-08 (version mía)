@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(int argc, char *argv[]) {
+	int n1, n2, multiplo = 0;
+	
+	printf("Dar el primer valor, para verificar si es multiplo del segundo ");
+	scanf("%d",&n1);
+	
+	if (n1!=0){
+		printf("Dar un segundo valor para realizar la comprobacion ");
+		scanf("%d",&n2);
+			if (n2!=0){
+				multiplo = n1%n2;
+				if (multiplo == 0){
+					printf("%d\n,%d\n Son multiplos",n1,n2);	
+				} else {printf("%d\n,%d\n NO Son multiplos",n1,n2);	}
+			} else {
+				printf("Por definicion los unicos multiplos de 0 son el cero, por lo tanto no son multiplos");
+			}		
+	} 
+	else{
+		printf("Por definición de Entero multiplo el 0 es multiplo de todos los números");
+	} 
+			
+	return 0;
+}
