@@ -1,6 +1,9 @@
 #include <stdio.h>
 /*48
-Autor: 29/Enero/17
+Autores: Equipo 8 
+     Irving Baez, José Canul
+     Eliezer Couoh, Ignacio Panana
+     Andrés Pérez 29 / Enero / 17
 Entradas: anti(int) salario (int) trab (int)
 Salidas:incentivo (float) 
 Procedimiento general:
@@ -11,14 +14,14 @@ para despues asignar su incentivo
 */
 int main(int argc, char *argv[]) {
 	/*entrada:
-	anti (int) antig�edad, salario (float), trab (int) trabajadores
+	anti (int) antigüedad, salario (float), trab (int) trabajadores
 	con contador, incentivo donde se refleja el bono
 	*/
 	int anti = 0, con=1, trab;
 	float salario = 0.0, incentivo = 0.0;
 	printf ("ingresa la cantidad de trabajadores\n");
 	scanf ("%d",&trab);
-	/*entra en ciclo para ingresar los salarios y anti�edad
+	/*entra en ciclo para ingresar los salarios y antiüedad
 	de los trabajadores que se dieron*/
 	for (con=1; con<=trab; con++)
 	{
