@@ -1,19 +1,22 @@
 #include <stdio.h>
 /*32
-Autor: 29/Enero/17
+Autores: Equipo 8 
+     Irving Baez, Jos√© Canul
+     Eliezer Couoh, Ignacio panana
+     Andr√©s P√©rez 29 / Enero / 17
 Entradas: ano1 ano2 (int)
 Salidas: bisiestos (int)
 Procedimiento general:
-ciclo for donde se va validando en un if los aÒos
-desde el aÒo menor hasta el mayor para sacar los bisiestos
-siendo que el aÒo sea multiplo de 4 pero no de 100
+ciclo for donde se va validando en un if los a√±os
+desde el a√±o menor hasta el mayor para sacar los bisiestos
+siendo que el a√±o sea multiplo de 4 pero no de 100
 y si es de cien que sea multiplo de 400 para ser bisiesto
 */
 int main(int argc, char *argv[]) {
 	/* entrada:
 	ano1 y ano2 (int) variable de netrada
-	bisiestos (int) salida y contador de aÒos
-	anomenor anomayor para establecer el rango de los aÒos dados
+	bisiestos (int) salida y contador de a√±os
+	anomenor anomayor para establecer el rango de los a√±os dados
 	*/
 	int ano1=0, ano2=0, bisiestos=0, anomenor =0, anomayor =0;
 	
@@ -21,7 +24,7 @@ int main(int argc, char *argv[]) {
 	scanf("%d",&ano1);
 	printf("Dar un valor para el primer ano a evaluar : ");
 	scanf("%d",&ano2);
-	/* se acomoda del aÒo mas chico al mas
+	/* se acomoda del a√±o mas chico al mas
 	grande de los valores dados*/
 	if (ano1<ano2){
 		anomenor = ano1;
@@ -31,7 +34,7 @@ int main(int argc, char *argv[]) {
 		anomenor = ano2;
 		anomayor = ano1;
 	}
-	/*se va validando los aÒos que hay del rango dado*/
+	/*se va validando los a√±os que hay del rango dado*/
 	for (anomenor=anomenor; anomenor <= anomayor; anomenor++)
 	{
 		/* se valida si es multiplo de 4 pero no de 100
