@@ -1,6 +1,9 @@
 #include <stdio.h>
 /*40
-Autor: 29/Enero/17
+Autores: Equipo 8 
+     Irving Baez, José Canul
+     Eliezer Couoh, Ignacio Panana
+     Andrés Pérez 29 / Enero / 17
 Entradas: trabajadores (int) sueldos(float)
 Salidas: Nsueldo (float)
 Procedimiento general:
