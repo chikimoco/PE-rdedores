@@ -1,12 +1,15 @@
 #include <stdio.h>
 /* 24
-Autor: 29/Enero/17
+Autores: Equipo 8 
+     Irving Baez, José Canul
+     Eliezer Couoh, Ignacio panana
+     Andrés Pérez 29 / Enero / 17
 Entradas: n (int)
 Salidas: sumador (float)
 Procedimiento general:
 ciclo for donde se calcula y acomula la potencia
 y un sumador donde se acomula la suma
-de la operaci�n ..+n/2^n
+de la operación ..+n/2^n
 */
 int main(int argc, char *argv[]) {
 	/* entrada: n (int) vaariable de entrada
@@ -17,7 +20,7 @@ int main(int argc, char *argv[]) {
 	float potencia=1, sumador=0;
 	scanf ("%d",&n);
 	/* ciclo for para calcular potencia, hacer
-	la operaci�n y acomularla 
+	la operación y acomularla 
 	*/
 	for (contador; contador <= n; contador++)
 	{
