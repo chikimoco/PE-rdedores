@@ -1,6 +1,9 @@
 #include <stdio.h>
 /* 8
-Autor: 29/Enero/17
+Autores: Equipo 8 
+     Irving Baez, José Canul
+     Eliezer Couoh, Ignacio Panana
+     Andrés Pérez 29 / Enero / 17
 Entradas:num2, num1 (int)
 Salidas: validacion de num2, num1 (int)
 Procedimiento general:
@@ -12,9 +15,9 @@ int main(int argc, char *argv[]) {
 	/*entradas:
 	num1, num2 (int) variables*/
 	int num1, num2;
-	printf ("introdusca el primer n�mero\n");
+	printf ("introdusca el primer número\n");
 	scanf ("%d", &num1);
-	printf ("introdusca el segundo n�mero\n");
+	printf ("introdusca el segundo número\n");
 	scanf ("%d", &num2);
 	/*validacion para no dividir entre 0*/
 	if (num2!=0) 
