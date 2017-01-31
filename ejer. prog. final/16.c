@@ -1,6 +1,9 @@
 #include <stdio.h>
 /*16
-Autor: 29/Enero/17
+Autores:equipo 8 
+     Irving Baez, Joseph Canul
+     Eliezer Couoh, Ignacio Panána
+     Andres  Perez 29/Enero/17
 Entradas: n (float), 
 Salidas: promedio (float)
 Procedimiento general:
