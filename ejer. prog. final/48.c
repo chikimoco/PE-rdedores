@@ -15,7 +15,7 @@ para despues asignar su incentivo
 int main(int argc, char *argv[]) {
 	/*entrada:
 	anti (int) antigüedad, salario (float), trab (int) trabajadores
-	con contador, incentivo donde se refleja el bono
+	con contador, incentivo (float) donde se refleja el bono
 	*/
 	int anti = 0, con=1, trab;
 	float salario = 0.0, incentivo = 0.0;
